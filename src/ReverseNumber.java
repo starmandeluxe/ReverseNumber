@@ -1,4 +1,9 @@
-
+/*
+ * Method that reverses a decimal number
+ * 
+ * ex: 126 -> 621
+ * 
+ */
 public class ReverseNumber {
 
 	public static void main(String[] args) {
@@ -11,11 +16,11 @@ public class ReverseNumber {
 
 		while(n!=0){
 		    out *= 10;
-		    System.out.println("out *= 10: " + out);
+		    //System.out.println("out *= 10: " + out);
 		    out += n%10;
-		    System.out.println("out += n%10: " + out);
+		    //System.out.println("out += n%10: " + out);
 		    n /= 10;
-		    System.out.println("n /= 10: " + n);
+		    //System.out.println("n /= 10: " + n);
 		    }
 
 		return out;
